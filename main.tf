@@ -2,11 +2,11 @@
      terraform {
        backend "remote" {
          # The name of your Terraform Cloud organization.
-         organization = "averydennison"
+         organization = "ratanavery"
 
          # The name of the Terraform Cloud workspace to store Terraform state files in.
          workspaces {
-           name = "poc-secureconnect"
+           name = "test-wf"
          }
        }
      }
